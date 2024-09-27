@@ -36,6 +36,35 @@ customquote = quotes[Math.floor((Math.random() * quotes.length))]
 document.getElementById("wittyquote").color = "white"
 corrr=`\n<h2>2076: The End.</h2><font id='wittyquote' size='3' color='#ffffff'><em>`+customquote+`</em></font>`
 
+campaignTrail_temp.achievements = {
+  "Tossed Out." : {
+      "image" : "https://i.imgur.com/kZifWKS.png",
+      "description" : "After winning, see the consequences of what you said."
+  },
+  "A House Divided" : {
+      "image" : "https://i.imgur.com/M8Lma2v.png",
+      "description" : "See the consequences of your actions."
+  },
+  "Ungrateful Little Bastards" : {
+      "image" : "https://i.imgur.com/mEJM7WC.png",
+      "description" : "Ally yourself with ungrateful radicals and win.",
+  },
+  "Turn Your Back Away" : {
+      "image" : "https://i.imgur.com/svmEzNM.png",
+      "description" : "Forget the people who got you where you are.",
+  }
+}
+
+campaignTrail_temp.modBoxTheme = {
+    "header_color" : "#757688",
+    "header_text_color" : "#FFFFFF",
+    "description_text_color" : "#FFFFFF",
+    "description_background_color" : "#A6A8C1",
+    "main_color" : "#8C91A4",
+    "secondary_color" : "#757688",
+    "ui_text_color": "#FFFFFF"
+}
+
 function addDynamicCSS() {
     var css = `
         .inner_window_question h3 .mytooltip{
